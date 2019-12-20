@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo curl -sSL -o /usr/local/bin/argo https://github.com/argoproj/argo/releases/download/v2.2.1/argo-linux-amd64
+sudo chmod +x /usr/local/bin/argo
+sudo curl -L https://github.com/argoproj/argo-cd/releases/download/v1.2.2/argocd-linux-amd64 -o /usr/local/bin/argocd
+sudo chmod +x /usr/local/bin/argocd
